@@ -649,7 +649,7 @@ footer p {
 }
 
 @media screen and (max-width: 650px) {
-  #actionquote, #quote {
+  #actionquote {
     width: 90%;
   }
 
