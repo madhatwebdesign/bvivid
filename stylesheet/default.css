@@ -48,6 +48,12 @@ h3 {
   width: 70px;
 }
 
+.container {
+  padding-left: 0;
+  padding-right: 0;
+  width: 95%;
+}
+
 .navbar-brand img {
   position: relative;
   bottom: 17px;
@@ -110,8 +116,10 @@ li a:hover, li a:focus {
 /*CALL TO ACTION*/
 
 .jumbotron {
-  margin-bottom: 0px;
+  padding-top: 1em;
+  margin-bottom: 0;
   color: white;
+
 }
 
 .jumbotron .container h1 {
@@ -123,15 +131,25 @@ li a:hover, li a:focus {
   margin-bottom: 0.4em;
 }
 
+.jumbotron h3 {
+  text-align: left;
+  position: relative;
+  left: -4em;
+  background-color: black;
+  padding: 12px 15px 12px 3em;
+  display: inline-block;
+}
+
 .jumbotron .container p {
   width: 75%;
   text-align: center;
-  margin: 20px auto;
+  margin: 5em auto 2em auto;
+
 }
 
 .jumbotron .container {
-  margin-top: 7em;
-  margin-bottom: 0em;
+  margin-top: 0em;
+  padding-bottom: 35em;
 }
 
 .centered {
@@ -139,20 +157,16 @@ li a:hover, li a:focus {
 }
 
 .jumbotron {
-  width: 100%;
-  padding-bottom: 0;
   background-image: url("../imgs/actioncomp2.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   background-position: top;
-  text-align: center;
 }
 
 
 /*BUTTONS*/
-
 
 .btn-primary, .btn-default {
   background-color: #466774;
@@ -188,19 +202,21 @@ li a:hover, li a:focus {
 
 #servicesanchor {
   position: absolute;
-
   bottom: 5em;
   height: 0;
 }
 
-.postintro p {
-  text-align: center;
-  font-size: 1.5em;
+.containeraction {
+  background-color: black;
 }
 
 #actionquote {
-  margin-bottom: 2em;
-  margin-top: 3em;
+  padding-bottom: 2em;
+  padding-top: 2em;
+  text-align: center;
+  font-size: 1.5em;
+  width: 50%;
+  color: white;
 }
 
 
