@@ -649,7 +649,8 @@ footer p {
 }
 
 @media screen and (max-width: 650px) {
-  #actionquote, #quote, {
+  #actionquote, #quote {
+    width: 90%;
   }
 
   #clients .container, #clients {
