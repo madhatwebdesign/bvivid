@@ -536,6 +536,10 @@ li a:hover, li a:focus {
   opacity: 0.6;
 }
 
+.mobileclients {
+  display: hidden;
+}
+
 
 
 
@@ -638,12 +642,37 @@ footer p {
 }
 }
 
+@media screen and (max-width: 767px) {
+  .jumbotron .container {
+    margin-top: 4em;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  #actionquote, #quote, {
+  }
+
+  #clients .container, #clients {
+    width: 100%;
+  }
+
+  .mobileclients {
+    display: block;
+  }
+
+  .thumb {
+    display: none;
+  }
+}
 
 /*THE TEAM*/
 
 @media screen and (max-width: 550px) {
   #theteam img {
     display: none;
+  }
+  #theteam p {
+    margin: inherit 10px;
   }
 }
 
@@ -655,11 +684,7 @@ footer p {
   }
 }
 
-@media screen and (max-width: 767px) {
-  .jumbotron .container {
-    margin-top: 4em;
-  }
-}
+
 
 
 
