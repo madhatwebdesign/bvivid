@@ -50,7 +50,7 @@ h3 {
 
 .navbar-brand {
   position: relative;
-  top: 13px;
+  top: 11px;
   color: black;
   height: 76px;
 }
@@ -58,7 +58,7 @@ h3 {
 #fancy {
   font-size: 3em;
   color: black;
-  font-weight: 100;
+  font-weight: 200;
   letter-spacing: 0.04em;
 }
 
