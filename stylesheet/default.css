@@ -64,6 +64,7 @@ h3 {
 
 #fancy i, #fancy span {
   color: red;
+  letter-spacing: 0;
 }
 
 #fancy span {
@@ -79,9 +80,7 @@ h3 {
   width: 97%;
 }
 
-.navbar-brand img {
-  position: relative;
-  bottom: 17px;
+#fancy {
   opacity: 0.8;
   -webkit-transition: all 500ms ease;
   -moz-transition:    all 500ms ease;
@@ -89,7 +88,7 @@ h3 {
   transition:         all 500ms ease;
 }
 
-.navbar-brand img:hover {
+#fancy:hover {
   opacity: 0.5;
 }
 
@@ -678,7 +677,7 @@ footer p {
 
 @media screen and (max-width: 700px) {
   #fancy span {
-    font-size: 0.2em;
+    font-size: 0.25em;
     margin-left: 0.1em;
   }
 
