@@ -268,10 +268,11 @@ li a:hover, li a:focus {
 /**/
 
 .glyphicon {
-  font-family: 'Glyphicons Halflings';
   color: #466774;
-  font-size: 2.3em !important;
+  font-size: 3.3em;
   font-weight: 300;
+  position: relative;
+  top: -70px;
 }
 
 .carouselcontainer {
@@ -379,7 +380,7 @@ li a:hover, li a:focus {
 
 /*fonts*/
 #services h1 {
-  color: white;
+  color: #F8F8F8;
 }
 
 #services p {
@@ -681,6 +682,7 @@ footer p {
     margin-left: 0.1em;
     font-weight: 300;
   }
+}
 
 @media screen and (max-width: 767px) {
   .jumbotron .container {
@@ -747,7 +749,7 @@ footer p {
   background-color: gray !important;
   min-width: 10px;
   width: 100%;*/
-  display: none;
+  display: none !important;
 }
 
   .col-sm-5 {
@@ -761,7 +763,6 @@ footer p {
   .carousel-mobile {
     display: block;
     background-image: url("../imgs/designs/beigediamond.png");
-
   }
 
 }
