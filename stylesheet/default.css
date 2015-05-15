@@ -709,7 +709,7 @@ footer p {
 
 @media screen and (max-width: 767px) {
   .jumbotron .container {
-    margin-top: 4em;
+    /*margin-top: 4em;*/
   }
 }
 
