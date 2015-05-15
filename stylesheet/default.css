@@ -286,13 +286,13 @@ li a:hover, li a:focus {
 #myCarousel {
   margin: 0 auto;
   max-width: 1100px;
-  min-height: 480px;
+  min-height: 560px;
 }
 
 .item{
     background: #333;
     text-align: center;
-    height: 300px;
+    height: 450px;
     background-color: inherit;
     margin-top: 1em;
     margin-bottom: 4em;
@@ -372,10 +372,6 @@ li a:hover, li a:focus {
 
 
 
-
-
-
-
 /*SERVICES*/
 
 /*fonts*/
@@ -390,6 +386,7 @@ li a:hover, li a:focus {
 
 #services h3 {
   color: #FFF0E8;
+  /*color: #333333;*/
   font-weight: 900;
   letter-spacing: 0.03em;
 }
@@ -416,7 +413,7 @@ li a:hover, li a:focus {
 
 .col-md-4 {
   margin-bottom: 2em;
-  margin-top: 3em;
+  margin-top: 1em;
   text-align: center;
 }
 
@@ -426,7 +423,26 @@ li a:hover, li a:focus {
   margin: auto auto;
 }
 
+#finalrow {
+  margin-bottom: 5em;
+}
 
+/*Organizational Communications*/
+
+.OCwrapper > p {
+  text-align: center;
+  margin: auto;
+  width: 50%;
+}
+
+.OCwrapper h1 {
+  font-size: 3em;
+}
+
+.OCwrapper h4 {
+  font-style: italic;
+  opacity: 0.8;
+}
 
 
 
@@ -447,6 +463,13 @@ li a:hover, li a:focus {
   color: #466774;
   margin-bottom: 1.5em;
 }
+
+#theteam h4 {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
 #theteam p {
   color: #071B2B;
   margin-bottom: 1em;
@@ -549,8 +572,8 @@ li a:hover, li a:focus {
 }
 
 .thumb {
-  border: none;
-  margin-bottom: 0;
+  border: 1px solid gray;
+  margin: 3px auto;
 }
 
 .thumbnail {
