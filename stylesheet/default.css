@@ -175,7 +175,7 @@ li a:hover, li a:focus {
 
 .jumbotron .container {
   margin-top: 0em;
-  padding-bottom: 35em;
+  padding-bottom: 30em;
 }
 
 .centered {
@@ -226,7 +226,7 @@ li a:hover, li a:focus {
 /*POST INTRO BLURB*/
 
 .containeraction {
-  background-color: black;
+  background-color: #030303;
 }
 
 #actionquote {
@@ -491,6 +491,7 @@ li a:hover, li a:focus {
   margin: auto;
   width: 50%;
   text-align: center;
+  font-size: 1.5em;
 }
 
 #theteam p {
@@ -587,11 +588,15 @@ li a:hover, li a:focus {
   text-align: center;
 }
 
-#clients h2 {
+#clients h2, #theteam h4 {
   width: 100%;
   font-family: 'Oswald' sans-serif;
   font-weight: 300;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
+}
+
+#clients h2 {
+  font-size: 1.6em;
 }
 
 .thumb {
