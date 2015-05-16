@@ -56,18 +56,21 @@ h3 {
 }
 
 #fancy {
+  font-family: 'Arial Narrow', Arial, sans-serif;
   font-size: 3em;
   color: black;
-  font-weight: 500;
+  font-weight: 800;
   letter-spacing: 0.00em;
 }
 
-#fancy i, #fancy span {
+#fancy i {
   color: red;
   letter-spacing: 0;
 }
 
 #fancy span {
+  font-weight: 400;
+  color: black;
   font-size: 0.4em;
   opacity: 0.8;
   margin-left: 0.3em;
