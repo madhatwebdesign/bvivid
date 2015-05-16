@@ -58,8 +58,8 @@ h3 {
 #fancy {
   font-size: 3em;
   color: black;
-  font-weight: 200;
-  letter-spacing: 0.04em;
+  font-weight: 500;
+  letter-spacing: 0.00em;
 }
 
 #fancy i, #fancy span {
@@ -81,7 +81,7 @@ h3 {
 }
 
 #fancy {
-  opacity: 0.8;
+  opacity: 1;
   -webkit-transition: all 500ms ease;
   -moz-transition:    all 500ms ease;
   -o-transition:      all 500ms ease;
@@ -89,7 +89,7 @@ h3 {
 }
 
 #fancy:hover {
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
 .navbar-default {
@@ -183,7 +183,7 @@ li a:hover, li a:focus {
 }
 
 .jumbotron {
-  background-image: url("../imgs/landingimage.jpg");
+  background-image: url("../imgs/landingimageold.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -226,14 +226,14 @@ li a:hover, li a:focus {
 /*POST INTRO BLURB*/
 
 .containeraction {
-  background-color: #030303;
+  background-color: #000000;
 }
 
 #actionquote {
-  padding-bottom: 4em;
+  padding-bottom: 6em;
   padding-top: 1em;
   text-align: center;
-  width: 70%;
+  width: 90%;
   color: white;
   font-size: 1.5em;
 }
