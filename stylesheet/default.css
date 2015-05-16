@@ -55,6 +55,11 @@ h3 {
   height: 76px;
 }
 
+.navbar-default .navbar-toggle {
+  border: none;
+  padding-left: 0;
+}
+
 #fancy {
   font-family: 'Arial Narrow', Arial, sans-serif;
   font-size: 3em;
