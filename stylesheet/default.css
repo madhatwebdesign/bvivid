@@ -2,7 +2,7 @@
 
 body { padding-top: 70px; }
 
-#top, #p1projects, #p2services, #p3team, #p4clients {
+#top, #p0about, #p1projects, #p2services, #p3team, #p4clients {
   position: relative;
   top: -5em;
 }
@@ -110,7 +110,7 @@ h3 {
 }
 
 .breadcrumb li {
-  margin-right: 1em;
+  margin-right: 0.3em;
   padding-top: 5px;
   font-family: 'Raleway', sans-serif;
 }
@@ -246,20 +246,22 @@ li a:hover, li a:focus {
 
 #aboutus h1 {
   margin-top: 0;
-  padding-top: 1em;
+  margin-bottom: 1em;
+  padding-top: 40px ;
+  text-align: center;
 }
 
 #aboutus {
   color: #F8F8F8;
-  text-align: center;
-  width: 70%;
+  width: 55%;
   margin: auto;
-  padding-bottom: 2em;
+  padding-bottom: 4em;
 }
 
 #aboutus p {
-  font-size: 1.6em;
+  font-size: 1.4em;
   padding-bottom: 1.5em;
+  text-align: left;
 }
 
 
@@ -592,7 +594,7 @@ li a:hover, li a:focus {
 }
 
 .thumb {
-  border: 1px solid gray;
+  /*border: 1px solid gray;*/
   margin: 3px auto;
 }
 
@@ -833,7 +835,11 @@ footer p {
     width: 100%
   }
 
-    #contact p {
+  #contact p {
+    width: 90%;
+  }
+
+  #aboutus {
     width: 90%;
   }
 }
