@@ -43,7 +43,7 @@ h3 {
 }
 
 .hrblue {
-  border-top: 1px solid #466774;
+  border-top: 1px solid #207CC1;
 }
 
 /*NAVIGATION BAR*/
@@ -195,10 +195,10 @@ li a:hover, li a:focus {
 /*BUTTONS*/
 
 .btn-primary, .btn-default {
-  background-color: #466774;
+  background-color: #207CC1;
   color: white;
   border-radius: 0px;
-  border: 2px #466774 solid;
+  border: 2px #207CC1 solid;
   width: 200px;
   -webkit-transition: all 500ms ease;
   -moz-transition:    all 500ms ease;
@@ -276,7 +276,7 @@ li a:hover, li a:focus {
 }
 
 #myCarousel h3, .carousel-mobile h3 {
-  color: #466774;
+  color: #207CC1;
   font-size: 2.5em;
 }
 
@@ -287,7 +287,7 @@ li a:hover, li a:focus {
 /**/
 
 .glyphicon {
-  color: #466774;
+  color: #207CC1;
   font-size: 3.3em;
   font-weight: 300;
   position: relative;
@@ -396,7 +396,7 @@ li a:hover, li a:focus {
 
 /*fonts*/
 #services h1 {
-  color: #F8F8F8;
+  color: black;
 }
 
 #services p {
@@ -405,7 +405,7 @@ li a:hover, li a:focus {
 }
 
 #services h3 {
-  color: #FFF0E8;
+  color: black;
   /*color: #333333;*/
   font-weight: 900;
   letter-spacing: 0.03em;
@@ -416,7 +416,7 @@ li a:hover, li a:focus {
 #services {
   padding-bottom: 7em;
   padding-top: 7em;
-  background-image: url("../imgs/action.jpg");
+  background-image: url("../imgs/test.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -480,7 +480,7 @@ li a:hover, li a:focus {
 }
 
 #theteam h2 {
-  color: #466774;
+  color: #207CC1;
   margin-bottom: 1.5em;
 }
 
