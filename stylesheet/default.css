@@ -57,7 +57,11 @@ h3 {
 
 .navbar-default .navbar-toggle {
   border: none;
-  padding-left: 0;
+  padding-left: 0px;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: #F8f8f8;
 }
 
 #fancy {
