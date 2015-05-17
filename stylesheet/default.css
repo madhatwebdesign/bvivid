@@ -709,7 +709,12 @@ form {
   box-shadow: 1px 1px 1px #888888;
 }
 
+.text-muted {
+  font-weight: 600;
+}
+
 .footer .text-muted {
+  font-family: 'Arial Narrow', Arial, sans-serif;
   margin-top: 5px;
   font-size: 2em;
   text-align: center;
