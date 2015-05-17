@@ -75,12 +75,12 @@ h3 {
 #fancy i {
   color: red;
   letter-spacing: 0;
+  font-style: normal;
 }
 
 #fancy span {
-  font-weight: 400;
-  color: black;
-  font-size: 0.4em;
+  color: red;
+  font-size: 0.5em;
   opacity: 0.8;
   margin-left: 0.3em;
 }
@@ -118,6 +118,7 @@ h3 {
   margin-top: 15px;
   float: right;
   padding-right: 0;
+  padding-left: 0;
   background-color: inherit;
 }
 
@@ -470,13 +471,14 @@ li a:hover, li a:focus {
   width: 50%;
 }
 
-.OCwrapper h1 {
-  font-size: 3em;
+.OCwrapper h3 {
+  margin: 5px, auto;
+  text-align: center;
 }
 
-.OCwrapper h4 {
-  font-style: italic;
+.OCwrapper h5 {
   opacity: 0.8;
+  font-style: italic;
 }
 
 
@@ -739,11 +741,10 @@ footer p {
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   #fancy span {
-    font-size: 0.3em;
+    font-size: 0.4em;
     margin-left: 0.1em;
-    font-weight: 300;
   }
 }
 
