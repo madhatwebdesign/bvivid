@@ -460,7 +460,7 @@ li a:hover, li a:focus {
 }
 
 #finalrow {
-  margin-bottom: 5em;
+  margin-bottom: 2em;
 }
 
 /*Organizational Communications*/
@@ -493,7 +493,7 @@ li a:hover, li a:focus {
 }
 
 #theteam hr {
-  margin-bottom: 3em;
+  margin-bottom: 1em;
 }
 
 #theteam h2 {
@@ -502,7 +502,9 @@ li a:hover, li a:focus {
 }
 
 #theteam h4 {
-  margin: auto;
+  padding: 0em, auto;
+  margin: 0em, auto;
+  margin-bottom: 0.3em;
   width: 50%;
   text-align: center;
   font-size: 1.5em;
@@ -606,7 +608,7 @@ li a:hover, li a:focus {
   width: 100%;
   font-family: 'Oswald' sans-serif;
   font-weight: 300;
-  margin-bottom: 2em;
+  margin-bottom: 0.3em;
 }
 
 #clients h2 {
