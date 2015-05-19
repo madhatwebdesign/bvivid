@@ -501,13 +501,20 @@ li a:hover, li a:focus {
   margin-bottom: 1.5em;
 }
 
-#theteam h4 {
-  padding: 0em, auto;
-  margin: 0em, auto;
+#theteamlogodesktop, #theteamlogomobile {
   margin-bottom: 0.3em;
   width: 50%;
   text-align: center;
   font-size: 1.5em;
+}
+
+#theteamlogomobile {
+  display: none;
+}
+
+#theteamlogodesktop h4, #theteamlogomobile h4 {
+  font-family: 'Oswald' sans-serif;
+  font-weight: 300;
 }
 
 #theteam p {
@@ -604,11 +611,10 @@ li a:hover, li a:focus {
   text-align: center;
 }
 
-#clients h2, #theteam h4 {
+#clients h2, #theteamlogodesktop, #theteamlogomobile {
   width: 100%;
   font-family: 'Oswald' sans-serif;
   font-weight: 300;
-  margin-bottom: 0.3em;
 }
 
 #clients h2 {
@@ -736,6 +742,16 @@ footer p {
 
 
 /*MOBILE*/
+
+@media screen and (max-width: 970px) {
+  #theteamlogomobile {
+    display: block;
+  }
+
+  #theteamlogodesktop {
+    display: none;
+  }
+}
 
 @media screen and (max-width: 450px) {
 
