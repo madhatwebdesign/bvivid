@@ -615,10 +615,11 @@ li a:hover, li a:focus {
   width: 100%;
   font-family: 'Oswald' sans-serif;
   font-weight: 300;
+  margin-top: 1.5em;
 }
 
 #clients h2 {
-  font-size: 1.6em;
+  font-size: 1.7em;
 }
 
 .thumb {
@@ -664,6 +665,7 @@ li a:hover, li a:focus {
 
 .mobileclients {
   display: none;
+  margin-bottom: 2em;
 }
 
 
