@@ -746,6 +746,8 @@ footer p {
 @media screen and (max-width: 970px) {
   #theteamlogomobile {
     display: block;
+    width: 80%;
+    margin: auto auto;
   }
 
   #theteamlogodesktop {
