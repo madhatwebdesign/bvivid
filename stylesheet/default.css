@@ -567,9 +567,9 @@ li a:hover, li a:focus {
 /*QUOTE*/
 
 #quote {
-  margin-top: 5em;
-  margin-bottom: 5em;
+  margin: 5em auto;
   width: 75%;
+
 }
 
 
@@ -622,18 +622,40 @@ li a:hover, li a:focus {
 }
 
 .thumb {
-  /*border: 1px solid gray;*/
-  margin: 3px auto;
+  margin: 0;
+  padding-right: 0;
+  padding-left: 0;
 }
 
+.container-fluid {
+  width: 1170px;
+  margin-bottom: 1em;
+  margin-top: 2em;
+}
+
+@media screen and (max-width: 1200px) {
+  .container-fluid {
+  width: 970px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .container-fluid {
+  width: 600px;
+  }
+}
+
+
+
 .thumbnail {
-  margin-bottom: 5px;
-  border: none;
   -webkit-transition: all 300ms ease;
   -moz-transition:    all 300ms ease;
   -o-transition:      all 300ms ease;
   transition:         all 300ms ease;
   background-color: transparent;
+  margin: 0;
+  padding: 20px;
+  border-radius: 0;
 }
 
 .thumbnail:hover {
