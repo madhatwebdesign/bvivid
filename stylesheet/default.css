@@ -630,8 +630,6 @@ li a:hover, li a:focus {
 
 .container-fluid {
   width: 1170px;
-  margin-bottom: 1em;
-  margin-top: 2em;
 }
 
 @media screen and (max-width: 1200px) {
@@ -644,6 +642,11 @@ li a:hover, li a:focus {
   .container-fluid {
   width: 600px;
   }
+}
+
+#teammargin {
+  margin-bottom: 2em;
+  margin-top: 2em;
 }
 
 
