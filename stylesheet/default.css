@@ -50,7 +50,7 @@ h3 {
 
 .navbar-brand {
   position: relative;
-  top: 11px;
+  top: 4px;
   color: black;
   height: 76px;
 }
@@ -72,17 +72,20 @@ h3 {
   letter-spacing: 0.00em;
 }
 
-#fancy i {
-  color: red;
-  letter-spacing: 0;
-  font-style: normal;
+#fancy img {
+  position: relative;
+  bottom: 8px;
+  left: 2px;
+  z-index: -1000;
 }
 
 #fancy span {
-  color: red;
-  font-size: 0.5em;
-  opacity: 0.8;
-  margin-left: 0.3em;
+  color: #CE0013;
+  position: relative;
+  font-size: 0.7em;
+  margin-left: 0.2em;
+  font-weight: 200;
+  bottom: 8px;
 }
 
 
@@ -427,17 +430,32 @@ li a:hover, li a:focus {
   letter-spacing: 0.03em;
 }
 
+#services h6 {
+  margin: auto;
+  text-align: center;
+  width:50%;
+  font-size: 1.2em;
+  margin-bottom: 1em;
+}
+
+@media screen and (max-width: 1380px) {
+      #services h6 {
+        width: 75%;
+      }
+  }
+
 /**/
 
 #services {
   padding-bottom: 7em;
   padding-top: 7em;
-  background-image: url("../imgs/test.jpg");
+  background-color: white;
+/*  background-image: url("../imgs/test.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-position: top;
+  background-position: top;*/
   width: 100%;
 }
 
@@ -460,7 +478,8 @@ li a:hover, li a:focus {
 }
 
 #finalrow {
-  margin-bottom: 2em;
+  margin: auto;
+  margin-bottom: 4em;
 }
 
 /*Organizational Communications*/
@@ -764,10 +783,6 @@ footer p {
 }
 
 
-
-
-
-
 /*MOBILE*/
 
 @media screen and (max-width: 970px) {
@@ -797,6 +812,7 @@ footer p {
   #fancy span {
     font-size: 0.3em;
     margin-left: 0.1em;
+    bottom: 3px;
   }
 }
 
