@@ -68,8 +68,9 @@ h3 {
   font-family: 'Arial Narrow', sans-serif;
   font-size: 3em;
   color: black;
-  font-weight: 800;
-  letter-spacing: 0.00em;
+  font-weight: 600;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 0.001em;
 }
 
 #fancy img {
