@@ -808,6 +808,12 @@ footer p {
     font-size: 0.8em;
   }
 }
+@media screen and (max-width: 950px) {
+  #fancy span {
+    font-size: 0.4em;
+    margin-left: 0.1em;
+  }
+}
 
 @media screen and (max-width: 800px) {
   #fancy span {
