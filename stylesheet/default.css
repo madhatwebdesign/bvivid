@@ -50,7 +50,7 @@ h3 {
 
 .navbar-brand {
   position: relative;
-  top: 4px;
+  top: 2px;
   color: black;
   height: 76px;
 }
@@ -65,7 +65,7 @@ h3 {
 }
 
 #fancy {
-  font-family: 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Arial Narrow', sans-serif;
   font-size: 3em;
   color: black;
   font-weight: 800;
