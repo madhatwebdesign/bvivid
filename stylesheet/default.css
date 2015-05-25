@@ -83,7 +83,7 @@ h3 {
 #fancy span {
   color: #CE0013;
   position: relative;
-  font-size: 0.7em;
+  font-size: 0.6em;
   margin-left: 0.2em;
   font-weight: 200;
   bottom: 8px;
@@ -176,12 +176,37 @@ li a:hover, li a:focus {
 .jumbotron h3 {
   text-align: left;
   position: relative;
-  left: -4em;
+  left: -4.7em;
   background-color: black;
-  padding: 12px 15px 12px 3.5em;
+  padding: 11px 15px 12px 3.5em;
   display: inline-block;
-  margin: 10px 0 5px 10px;
+  margin: 10px 0 5px 15px;
 }
+
+@media screen and (max-width: 1500px) {
+  .jumbotron h3 {
+    left: -4.6em;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .jumbotron h3 {
+    left: -4.5em;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .jumbotron h3 {
+    left: -4.4em;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .jumbotron h3 {
+    left: -4.3em;
+  }
+}
+
 
 .jumbotron .container p {
   width: 75%;
@@ -480,7 +505,7 @@ li a:hover, li a:focus {
 
 #finalrow {
   margin: auto;
-  margin-bottom: 4em;
+  margin-bottom: 0em;
 }
 
 /*Organizational Communications*/
@@ -642,6 +667,12 @@ li a:hover, li a:focus {
   font-size: 1.7em;
 }
 
+#clients h2 img {
+  height: 30px;
+  position: relative;
+  bottom: 5px;
+}
+
 .thumb {
   margin: 0;
   padding-right: 0;
@@ -766,6 +797,14 @@ form {
 
 .text-muted {
   font-weight: 600;
+}
+
+.text-muted img {
+  height: 30px;
+  position: relative;
+  bottom: 5px;
+  color: #CE0013;
+  left: 1px;
 }
 
 .footer .text-muted {
