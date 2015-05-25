@@ -27,7 +27,7 @@ h2 {
    font-family: 'Raleway', sans-serif;
 }
 
-h3 {
+h3, h6 {
  font-family: 'Gudea', sans-serif;
 }
 
@@ -980,4 +980,13 @@ footer p {
     display: none;
   }
 
+}
+
+
+/*LINE BREAKS*/
+
+@media screen and (max-width: 900px) {
+  #break {
+    display: none;
+  }
 }
