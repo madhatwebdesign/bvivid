@@ -78,6 +78,8 @@ h3, h6 {
   bottom: 8px;
   left: 2px;
   z-index: -1000;
+  height: 55px;
+  width: 34px;
 }
 
 #fancy span {
