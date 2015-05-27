@@ -1005,6 +1005,6 @@ footer p {
 input[type='text'],
 input[type='number'],
 input[type='email'],
-textarea {
+textarea[name='message'] {
   font-size: 16px;
 }
