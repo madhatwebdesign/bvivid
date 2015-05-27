@@ -988,6 +988,10 @@ footer p {
     display: none;
   }
 
+  .container-fluid {
+    display: none;
+  }
+
 }
 
 
